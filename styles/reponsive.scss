@@ -1,0 +1,141 @@
+@media only screen and (max-width: 425px) {
+    header .wather {
+        display: none;
+    }
+
+    header .province {
+        .Department-of-Home-Affairs {
+            font-size: 21px;
+        }
+    }
+
+    .infor-l {
+        margin-top: 10px;
+
+        .infor-f-hot {
+            width: 100%;
+            height: auto;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .banner {
+        img {
+            display: none;
+        }
+    }
+
+    .group-news .body-group-news {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .group-news .body-group-news a img {
+        width: 100%;
+    }
+
+    .media .body-media .body-media-l {
+        margin-top: 20px;
+    }
+
+    .executive .executive-ulict-r1 {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+
+        img {
+            width: 80px;
+        }
+    }
+
+    .executive .executive-ulict-r2 {
+        display: none;
+    }
+
+    .link-dowloads {
+        width: 100%;
+
+        p {
+            max-width: 55%;
+            display: -webkit-box;
+            /* Sử dụng -webkit-box cho hiệu ứng đa dòng */
+            -webkit-box-orient: vertical;
+            /* Định hướng chiều dọc */
+            -webkit-line-clamp: 1;
+            /* Chỉ hiển thị 1 dòng */
+            overflow: hidden;
+            /* Ẩn phần văn bản vượt quá */
+            text-overflow: ellipsis;
+            /* Thêm dấu "..." cho văn bản bị cắt */
+            margin: 0;
+            /* Đảm bảo không có margin */
+        }
+    }
+
+}
+
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+    .banner {
+        img {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    }
+
+    .body-media {
+        .body-media-l {
+            margin-top: 1px;
+        }
+
+    }
+
+    .media .body-media .body-media-l {
+        margin-top: 20px;
+    }
+
+    .group-news .body-group-news a img {
+        width: 220px;
+    }
+
+    .group-news-province .group-img {
+        display: none;
+    }
+
+    .executive .executive-ulict-r1 {
+        display: flex;
+        justify-content: space-between;
+
+        img {
+            display: flex;
+            width: 100px;
+        }
+    }
+
+    .executive .executive-ulict-r2 {
+        display: none;
+    }
+
+    .link-dowloads {
+        width: 100%;
+
+        p {
+            max-width: 80%;
+            display: -webkit-box;
+            /* Sử dụng -webkit-box cho hiệu ứng đa dòng */
+            -webkit-box-orient: vertical;
+            /* Định hướng chiều dọc */
+            -webkit-line-clamp: 1;
+            /* Chỉ hiển thị 1 dòng */
+            overflow: hidden;
+            /* Ẩn phần văn bản vượt quá */
+            text-overflow: ellipsis;
+            /* Thêm dấu "..." cho văn bản bị cắt */
+            margin: 0;
+            /* Đảm bảo không có margin */
+        }
+    }
+}
