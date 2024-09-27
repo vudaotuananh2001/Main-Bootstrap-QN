@@ -75,6 +75,40 @@
         }
     }
 
+    .group-news-province .group-news-hot {
+        width: 100%;
+    }
+
+    .group-news-hot {
+        margin-top: 10px;
+        padding: 0;
+    }
+
+    footer {
+        .banner-f {
+            .content-f {
+                margin-top: -33px;
+                margin-left: 0;
+
+                h3 {
+                    font-size: 15px;
+                }
+            }
+
+            img {
+                display: none;
+            }
+        }
+
+        .authur-f {
+            margin-top: 10px;
+        }
+    }
+
+    .social-network {
+        height: 50px;
+    }
+
 }
 
 
@@ -137,5 +171,23 @@
             margin: 0;
             /* Đảm bảo không có margin */
         }
+    }
+
+    .group-news-hot {
+        margin-top: 20px;
+    }
+
+    .group-news-hot-r img {
+        display: none;
+    }
+
+    footer .banner-f img {
+        display: none;
+    }
+
+    footer .authur-f {
+        align-items: center;
+        margin-top: 20px;
+        margin-left: 50px;
     }
 }
